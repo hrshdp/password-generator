@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(40, 40, 136, 0.596);
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main {
+    background-color: white; 
+    height: 600px;
+    min-width: 500px;
+    width: fit-content;
+    margin: 200px;
+    text-align: center;
+}
+
+#outputAurCopy {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+}
+
+#password {
+    height: 50px;
+    min-width: 400px;
+    width: fit-content;
+    margin-left: 10px;
+    border: 1px solid rgba(17, 17, 44, 0.596);
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Ensures the text is aligned to the center */
+}
+
+#copyBtn {
+    color: white;
+    background-color: rgb(21, 137, 245);
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
